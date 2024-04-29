@@ -3,6 +3,7 @@ import cv2 as cv
 import numpy as np
 from pydantic import BaseModel
 import os
+
 from tensorflow.keras.models import load_model
 
 
@@ -17,7 +18,7 @@ app = FastAPI()
 # )
 
 # Load the trained model
-model_file = os.path.abspath('../Model/1')
+model_file = os.path.abspath('Model/1')
 model = load_model(model_file)
 
 # Dictionary to map predicted labels to characters

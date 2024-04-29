@@ -1,9 +1,42 @@
-scikit-learn==1.3.2
-fastapi==0.108.0
-uvicorn==0.25.0
+# scikit-learn==1.3.2
+# fastapi==0.108.0
+# uvicorn==0.25.0
+# opencv-python
+# numpy==1.23.5
+# tensorflow==2.14.0
+
+# fastapi==0.68.0
+# uvicorn==0.15.0
+# opencv-python==4.5.3.56
+# numpy==1.21.2
+# tensorflow==2.14.0
+# pydantic==1.8.2
+
+fastapi==0.68.0
+uvicorn==0.15.0
 opencv-python
-numpy==1.23.5
+numpy
 tensorflow==2.14.0
+pydantic==1.8.2
+starlette==0.14.2
+h11>=0.8
+click>=7.0
+asgiref>=3.4.0
+protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3
+grpcio<2.0,>=1.24.3
+termcolor>=1.1.0
+astunparse>=1.6.0
+google-pasta>=0.1.1
+absl-py>=1.0.0
+tensorflow-io-gcs-filesystem>=0.23.1
+tensorflow-estimator<2.15,>=2.14.0
+ml-dtypes==0.2.0
+six>=1.12.0
+packaging
+opt-einsum>=2.3.2
+keras<2.15,>=2.14.0
+typing-extensions>=3.6.6
+flatbuffers>=23.5.26
 
 
 
